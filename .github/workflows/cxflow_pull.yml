@@ -42,6 +42,6 @@ jobs:
         break_build: false
         scanners: sast
         bug_tracker: GITHUBPULL
-        params: --cx-flow.break-build=true --github.block-merge=true --github.error-merge=true --cx-flow.thresholds.high=100 --cx-flow.thresholds.medium=100 --namespace=${{ github.repository_owner }} --repo-name=${{ github.event.repository.name }} --branch=${{ github.head_ref }} --merge-id=${{ github.event.number }}
+        #params: --cx-flow.break-build=true --github.block-merge=true --github.error-merge=true --cx-flow.thresholds.high=100 --cx-flow.thresholds.medium=100 --namespace=${{ github.repository_owner }} --repo-name=${{ github.event.repository.name }} --branch=${{ github.head_ref }} --merge-id=${{ github.event.number }}
 
 
